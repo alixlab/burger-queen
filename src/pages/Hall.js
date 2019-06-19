@@ -4,6 +4,7 @@ import '../style/Hall.css';
 import firebase from '../firebaseConfig';
 import withFirebaseAuth from 'react-with-firebase-auth';
 import { Button, Table } from 'react-bootstrap';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 const firebaseAppAuth = firebase.auth();
 const database = firebase.firestore();

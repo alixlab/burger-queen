@@ -4,6 +4,7 @@ import firebase from '../firebaseConfig';
 import withFirebaseAuth from 'react-with-firebase-auth';
 import { Button } from 'react-bootstrap';
 import burger from '../img/burger.png'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 const database = firebase.firestore();
 const firebaseAppAuth = firebase.auth();

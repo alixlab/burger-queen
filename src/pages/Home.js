@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 import '../style/Home.css';
 import firebase from '../firebaseConfig';
 import withFirebaseAuth from 'react-with-firebase-auth';
-import { BrowserRouter as Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import burger from '../img/burger.png'
 
 const database = firebase.firestore();

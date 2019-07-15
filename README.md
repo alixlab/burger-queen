@@ -1,3 +1,5 @@
+![burger-queen](https://user-images.githubusercontent.com/46815021/61192867-f60a9900-a68d-11e9-89e8-8e075e70aec3.jpg)
+
 # Burger Queen
 
 ## Índice
